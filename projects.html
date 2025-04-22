@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>پروژه‌ها</title>
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9fafb;
+      font-family: 'Vazir', sans-serif;
+      direction: rtl;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #1e40af;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background-color: #2563eb;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #1f2937;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      color: #1e3a8a;
+    }
+
+    .card p {
+      color: #374151;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #10b981;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">صفحه اصلی</a></li>
+      <li><a href="about.html">درباره من</a></li>
+      <li><a href="contact.html">تماس با من</a></li>
+      <li><a href="projects.html">پروژه‌ها</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>پروژه‌های من</h1>
+    <div class="projects">
+      <div class="card">
+        <h3>وب‌سایت فروشگاهی</h3>
+        <p>طراحی کامل یک فروشگاه با HTML و CSS.</p>
+        <a href="#">مشاهده پروژه</a>
+      </div>
+
+      <div class="card">
+        <h3>وبلاگ شخصی</h3>
+        <p>ساخت قالب ریسپانسیو برای وبلاگ‌های ساده.</p>
+        <a href="#">مشاهده پروژه</a>
+      </div>
+
+      <div class="card">
+        <h3>صفحه فرود (Landing Page)</h3>
+        <p>ساخته‌شده با تمرکز بر طراحی مدرن و ریسپانسیو.</p>
+        <a href="#">مشاهده پروژه</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
